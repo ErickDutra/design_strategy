@@ -12,7 +12,7 @@ public class SaoPauloStrategy implements DistanciaStrategy {
 
     @Override
     public void calcularDistancia(String destino, Double distancia) {
-        logger.info("A distancia da sua viagem de Manaus para [{}] que e de [{}] km", destino, distancia );
+        logger.info("A distancia da sua viagem de Sao Paulo para [{}] que e de [{}] km", destino, distancia );
     }
     
 }

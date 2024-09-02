@@ -12,7 +12,7 @@ public class RioStrategy implements DistanciaStrategy {
 
     @Override
     public void calcularDistancia(String destino, Double distancia) {
-        logger.info("A distancia da sua viagem de Santa Catarina para [{}] que e de [{}] km", destino, distancia );
+        logger.info("A distancia da sua viagem de Rio de Janeiro para [{}] que e de [{}] km", destino, distancia );
     }
     
 }

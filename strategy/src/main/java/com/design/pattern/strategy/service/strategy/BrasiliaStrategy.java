@@ -12,7 +12,7 @@ public class BrasiliaStrategy implements DistanciaStrategy {
 
     @Override
     public void calcularDistancia(String destino, Double distancia) {
-        logger.info("A distancia da sua viagem de Macapa para [{}] que e de [{}] km", destino, distancia );
+        logger.info("A distancia da sua viagem de Brasilia para [{}] que e de [{}] km", destino, distancia );
     }
     
 }

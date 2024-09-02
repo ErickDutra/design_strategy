@@ -12,9 +12,9 @@ import com.design.pattern.strategy.service.strategy.SaoPauloStrategy;
 @Service
 public class ViagemService {
     private final Map<String, DistanciaStrategy> mapStrategy = Map.of(
-      "Brasilia", new BrasiliaStrategy(),
-        "São Paulo", new SaoPauloStrategy(),
-        "Rio de Janeiro", new RioStrategy()  
+      "Brasilia", new SaoPauloStrategy(),
+        "São Paulo",  new RioStrategy() ,
+        "Rio de Janeiro", new BrasiliaStrategy()  
     );
 
     public void notfyViagem(ViagemDto viagemDto){
